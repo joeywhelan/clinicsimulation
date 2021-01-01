@@ -1,0 +1,16 @@
+{
+  "name": "generatorgcf",
+  "version": "1.0.0",
+  "description": "Google cloud function that is called by Cloud Scheduler to randomly generate synthetic patient records",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joey whelan",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^5.7.0",
+    "googleapis": "^66.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
